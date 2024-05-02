@@ -1,6 +1,9 @@
 import pygame as pg
 import json
 
+import sys
+sys.path.insert(1,'src')
+
 from enemy import Enemy
 from world import World
 from turret import Turret
